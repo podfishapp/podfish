@@ -1,0 +1,5 @@
+git checkout --orphan TEMP_BRANCH && git commit -am "initial" && git branch -D master && git branch -m master && git push -f origin master
+
+
+http://podfishapp.github.io/podfish/privacy_policy.html
+http://podfishapp.github.io/podfish/terms_of_use.html
