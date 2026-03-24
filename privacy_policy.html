@@ -181,8 +181,7 @@
     <li><a href="https://firebase.google.com/policies/analytics">Google Analytics for Firebase</a></li>
     <li><a href="https://firebase.google.com/support/privacy/">Firebase (AI Logic & Crashlytics)</a></li>
     <li><a href="https://support.apple.com/en-us/HT210657">Apple Speech Recognizer</a></li>
-    <li><a href="https://www.appsflyer.com/legal/services-privacy-policy/">AppsFlyer (Attribution & Measurement)</a>
-    </li>
+    <li><a href="https://appstance.com/privacy-policy">AppStance (Campaign Optimization)</a></li>
   </ul>
   </p>
 
@@ -252,8 +251,8 @@
   <h2>SDKs and Tracking Technologies</h2>
 
   <p>
-    Our mobile app uses Software Development Kits (SDKs) such as Firebase and AppsFlyer. These technologies may access
-    or store identifiers on your device (e.g., installation IDs, IDFA/IDFV) to provide analytics, crash reporting, or
+    Our mobile app uses Software Development Kits (SDKs) such as Firebase. These technologies may access
+    or store identifiers on your device (e.g., installation IDs) to provide analytics, crash reporting, or
     attribution.
   </p>
 
@@ -301,28 +300,39 @@
   </p>
 
   <p>
-    We do not display third‑party ads in the app. If we run marketing campaigns, we may use AppsFlyer solely for install
-    attribution and engagement measurement. See <a
-      href="https://www.appsflyer.com/legal/services-privacy-policy/">AppsFlyer Services Privacy Policy</a> and opt‑out
-    options at <a href="https://www.appsflyer.com/legal/opt-out/">AppsFlyer Opt‑Out</a>. Legal basis (GDPR/TTDSG): your
-    consent (Art. 6(1)(a) GDPR; § 25 TTDSG). Fraud prevention may also rely on our legitimate interests (Art. 6(1)(f)).
+    We do not display third‑party ads in the app. If we run marketing campaigns (e.g. Apple Search Ads), we measure
+    their effectiveness by collecting pseudonymous device identifiers, install timestamps, and in‑app interactions
+    (such as purchases or trial starts). This data is securely stored via Google/Firebase and shared with AppStance,
+    a service provider specializing in campaign optimization. See
+    <a href="https://appstance.com/privacy-policy">AppStance Privacy Policy</a>.
+    Legal basis (GDPR/TTDSG): your consent (Art. 6(1)(a) GDPR; § 25 TTDSG).
     You can withdraw consent at any time in the app settings.
   </p>
 
-  <h2>AppsFlyer Attribution and Measurement</h2>
+  <h2>Marketing Attribution and Campaign Measurement</h2>
 
   <p>
-    We use AppsFlyer to attribute app installs and measure campaign performance. AppsFlyer may collect device
-    identifiers (e.g., IDFA), IP address, device/OS information, and in‑app event data to understand how users discover
-    and engage with the app, detect fraud, and improve app performance. Processing by AppsFlyer is described in its <a
-      href="https://www.appsflyer.com/legal/services-privacy-policy/">Services Privacy Policy</a>. You can manage
-    tracking permissions via iOS App Tracking Transparency and review AppsFlyer's opt‑out page: <a
-      href="https://www.appsflyer.com/legal/opt-out/">https://www.appsflyer.com/legal/opt-out/</a>.
+    We measure how users discover our app to optimize advertising spend (e.g. for Apple Search Ads). For this purpose,
+    we collect:
   </p>
 
   <p>
-    Legal basis (GDPR/TTDSG): your consent (Art. 6(1)(a) GDPR; § 25 TTDSG) for analytics/attribution identifiers and
-    processing; fraud prevention may additionally rely on legitimate interests (Art. 6(1)(f)).
+  <ul>
+    <li>Pseudonymous device identifiers (e.g. Identifier for Vendor)</li>
+    <li>Install timestamp</li>
+    <li>In‑app interactions (e.g. purchases, trial starts, subscription renewals)</li>
+    <li>Campaign attribution data (e.g. campaign, ad group, keyword, country/region)</li>
+  </ul>
+  </p>
+
+  <p>
+    This data is stored securely via Google/Firebase (acting as our processor) and shared with
+    <a href="https://appstance.com/privacy-policy">AppStance</a>, a campaign optimization service.
+  </p>
+
+  <p>
+    Legal basis (GDPR/TTDSG): your consent (Art. 6(1)(a) GDPR; § 25 TTDSG). If you disable analytics in the app
+    settings, attribution data is deleted and no further data is shared with AppStance.
   </p>
 
 
@@ -335,7 +345,7 @@
   <p>
   <ul>
     <li><strong>Consent (Article 6(1)(a), § 25 TTDSG):</strong> For analytics and attribution technologies (e.g., device
-      identifiers, AppsFlyer/Firebase Analytics), obtained prior to activation; consent can be withdrawn at any time in
+      identifiers, Firebase Analytics), obtained prior to activation; consent can be withdrawn at any time in
       the app.</li>
     <li><strong>Contract performance (Article 6(1)(b)):</strong> To provide core functionality such as speech
       recognition and translation you request.</li>
@@ -410,13 +420,34 @@
   </p>
 
   <p>
-    <strong>Attribution (AppsFlyer)</strong><br>
-    Purpose: campaign measurement and fraud prevention.<br>
-    Data: IDFA/IDFV (if granted), IP, device data, in‑app events.<br>
-    Legal basis: Consent (Art. 6(1)(a), § 25 TTDSG); fraud prevention may rely on legitimate interests (Art.
-    6(1)(f)).<br>
-    Recipient/role: AppsFlyer – processor under data processing terms.<br>
-    Retention: up to 24 months (configurable). Shorter periods may apply where configured.
+    <strong>Marketing Attribution</strong><br>
+    Purpose: measure advertising campaign effectiveness (e.g. Apple Search Ads) and optimize advertising spend.<br>
+    Data: pseudonymous device identifiers, install timestamp, in‑app purchase and subscription events, campaign
+    attribution data (campaign, ad group, keyword, country/region).<br>
+    Legal basis: Consent (Art. 6(1)(a), § 25 TTDSG).<br>
+    Recipients: Google/Firebase (processor) for secure storage; AppStance (processor) for campaign optimization.<br>
+    Retention: data is retained as long as the anonymous account exists; deleted upon opt‑out. AppStance retains
+    forwarded data per their <a href="https://appstance.com/privacy-policy">privacy policy</a>.
+  </p>
+
+  <p>
+    <strong>App Usage and Session Tracking</strong><br>
+    Purpose: abuse prevention, error diagnosis, and processing refund requests.<br>
+    Data: app usage statistics (e.g. session duration, session frequency, last active date).<br>
+    Legal basis: Legitimate interests (Art. 6(1)(f)) in preventing abuse and ensuring service integrity; contract
+    performance (Art. 6(1)(b)) for service delivery.<br>
+    Recipient/role: Google/Firebase – processor.<br>
+    Retention: stored as long as the anonymous account exists.
+  </p>
+
+  <p>
+    <strong>Refund Handling</strong><br>
+    Purpose: respond to refund requests forwarded by Apple by providing aggregated consumption data.<br>
+    Data shared with Apple: account age, usage duration, total purchases, total refunds, user status (active/inactive),
+    delivery status, platform.<br>
+    Legal basis: Legitimate interests (Art. 6(1)(f)) in preventing fraudulent refund requests; contract performance
+    (Art. 6(1)(b)).<br>
+    Recipient/role: Apple Inc. – independent controller.
   </p>
 
   <p>
@@ -465,8 +496,8 @@
 
   <p>
     Your personal information may be transferred to and processed in countries other than your country of residence. In
-    particular, data sent to Google (translation), Apple (speech recognition), and AppsFlyer (attribution) may be
-    processed in the United States.
+    particular, data sent to Google (translation, analytics, attribution storage), Apple (speech recognition, refund
+    handling), and AppStance (campaign optimization) may be processed in the United States.
   </p>
 
 
@@ -481,9 +512,9 @@
   <p>
     We retain personal data only for as long as necessary for the purposes described above or as required by law. Unless
     stated otherwise: support emails are deleted 6 months after ticket closure; crash data is retained up to 90 days;
-    analytics data up to 14 months (configurable; default ≤ 14 months); attribution data up to 24 months (configurable).
-    Shorter periods may apply where configured. You may request deletion as described under "GDPR Data Protection
-    Rights" below.
+    analytics data up to 14 months (configurable; default ≤ 14 months); attribution and usage data is retained as long
+    as your anonymous account exists and deleted upon opt‑out. AppStance retains forwarded data per their retention
+    policy. You may request deletion as described under "GDPR Data Protection Rights" below.
   </p>
   <p>
     Backups may retain technical copies for a limited period; these are automatically overwritten and are not used for
@@ -572,6 +603,20 @@
     6(1)(b)/(f) GDPR).
   </p>
 
+  <h2>Refund Handling</h2>
+  <p>
+    When you request a refund through Apple, Apple may notify us. In response, we share aggregated usage data with
+    Apple (such as account age, usage duration, purchase history, and account status) to help Apple make an informed
+    decision regarding your refund request. Apple processes this data as an independent controller under its own
+    privacy terms.
+  </p>
+
+  <p>
+    By using the app and making in‑app purchases, you consent to our sharing of such consumption data with Apple as
+    part of refund request processing. This data sharing is done in compliance with Apple's policies and only as
+    necessary to process refund requests.
+  </p>
+
 
   <h2>Children's Privacy</h2>
   <p>
@@ -614,7 +659,7 @@
     changes.
     For material changes, we will provide advance notice in‑app or by email at least 7 days before the new policy takes
     effect.
-    This policy is effective as of 19 October 2025
+    This policy is effective as of 24 March 2026
   </p>
 
 
